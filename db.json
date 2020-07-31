@@ -1,21 +1,121 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "Front End",
-        "cor": "#6BD1FF",
-        "link_extra": {
-          "text": "Formação de Front End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
+  "categorias": [
+    {
+      "titulo": "Música",
+      "link": "https://www.youtube.com/c/Eleotan/videos",
+      "cor": "#ba0f0f",
+      "link_extra": {
+        "text": "As melhores em cachorrês",
+        "url": "https://www.youtube.com/c/Eleotan/videos"
+      },
+      "videos": [
+        {
+          "titulo": "Dog Relax",
+          "url": "https://www.youtube.com/watch?v=6i_SjY9OFpc"
+        },
+        {
+          "titulo": "Música de Batalha - Naruto",
+          "url": "https://www.youtube.com/watch?v=vjN5DX0M3wo"
+        },
+        {
+          "titulo": "Baby Shark",
+          "url": "https://www.youtube.com/watch?v=dGp-Q_WReNQ"
+        },
+        {
+          "titulo": "Titanic",
+          "url": "https://www.youtube.com/watch?v=hYLMZsCpvcE"
+        },
+        {
+          "titulo": "Missão Impossível",
+          "url": "https://www.youtube.com/watch?v=EpBqYdPOH3g"
+        },
+        {
+          "titulo": "Believer - Imagine Dragons",
+          "url": "https://www.youtube.com/watch?v=GTskEqXHUcg"
+        },
+        {
+          "titulo": "The Avengers",
+          "url": "https://www.youtube.com/watch?v=zHfdRDp_R4A"
+        }      
+      ]
+    },
+    {
+      "titulo": "Cinema",
+      "cor": "#ba0f0f",
+      "link_extra": {
+        "text": "Sucessos do cinecão",
+        "url": "https://love.doghero.com.br/dicas/filmes-de-cachorro/"
+      },
+      "videos": [
+        {
+          "titulo": "101 Dálmatas",
+          "url": "https://www.youtube.com/watch?v=HgC2cISSBy0"
+        },
+        {
+          "titulo": "A Dama e o Vagabundo",
+          "url": "https://www.youtube.com/watch?v=rcT_fWnm1o4"
+        },
+        {
+          "titulo": "Scooby Doo",
+          "url": "https://www.youtube.com/watch?v=gGrmKgnWw9Y"
+        },
+        {
+          "titulo": "Bolt - O Super Cão",
+          "url": "https://www.youtube.com/watch?v=Zwn0VuCbH-c"
+        }, 
+        {
+          "titulo": "Marley e Eu",
+          "url": "https://www.youtube.com/watch?v=WKFbqyAsDAA"
         }
-      }
-     ],
-    "videos": [
-      {
-        "id": 1,
-        "categoriaId": 1,
-        "titulo": "SEO com React",
-        "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-      }
-    ]
-  }
+      ]
+    },
+    {
+      "titulo": "Loca the Pug",
+      "cor": "#ba0f0f",
+      "link_extra": {
+        "text": "Os melhores vídeos de Loca, o pug",
+        "url": "https://www.youtube.com/user/alcolm1"
+      },
+      "videos": [
+        {
+          "titulo": "The pug that couldn't run",
+          "url": "https://www.youtube.com/watch?v=x2RJN9a_jdM"
+        },
+        {
+          "titulo": "There was a young puppy...",
+          "url": "https://www.youtube.com/watch?v=ZOQtKnHcpSg"
+        },
+        {
+          "titulo": "'SUPERDOGS' (Part 2)",
+          "url": "https://www.youtube.com/watch?v=3KktjpIUj44"
+        },
+        {
+          "titulo": "Loca the pug is dead (I'm what?)",
+          "url": "https://www.youtube.com/watch?v=p6cCz9I_S6s"
+        }
+      ]
+    },
+    {
+      "titulo": "Dogs in Games",
+      "cor": "#ba0f0f",
+      "videos": [
+        {
+          "titulo": "Vida de Cão: GTA V",
+          "url": "https://www.youtube.com/watch?v=l-ti5MgK6Fc"
+        },
+        {
+          "titulo": "Pitbull Albino no GTA V",
+          "url": "https://www.youtube.com/watch?v=Z9lAsSn0TFY"
+        },
+        {
+          "titulo": "Evolução do Duck Hunt",
+          "url": "https://www.youtube.com/watch?v=R_iowW_gq1Q"
+        },
+        {
+          "titulo": "Cuidando do Boo o Cachorro Mais Fofo da Internet",
+          "url": "https://www.youtube.com/watch?v=IZfEqVfuXIo"
+        }
+      ]
+    }
+  ]
+}
