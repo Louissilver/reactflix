@@ -103,14 +103,7 @@ function CadastroCategoria() {
           </li>
         ))}
       </ul>
-
-      <Link to="/cadastro/video">
-        Cadastrar Vídeo
-      </Link>
       <br />
-      <Link to="/">
-        Home
-      </Link>
     </PageDefault>
   );
 }
