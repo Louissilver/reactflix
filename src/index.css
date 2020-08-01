@@ -4,14 +4,14 @@
 }
 
 :root {
-  --primary: #b30f0f;
+  --primary: #c4c4c4;
   --black: #000000;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
   --grayMedium: #e5e5e5;
   --white: #FFFFFF;
-  --frontEnd: #ff0000;
-  --backEnd: #c81e00;
+  --frontEnd: #4e4e4e;
+  --backEnd: #575757;
 }
 
 html,

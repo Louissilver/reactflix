@@ -2,11 +2,65 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Front End",
+      "titulo": "Game of Thrones - História e Tradição, 1ª Temporada",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Guia completo para Westeros",
+        "url": "https://www.youtube.com/playlist?list=PLGIlAt6fMmWQnwLuyPh-Od_rhNbL7pQ4d"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Game of Thrones - História e Tradição, 2ª Temporada",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Mais histórias de Westeros e das terras de sempre verão",
+        "url": "https://www.youtube.com/playlist?list=PLGIlAt6fMmWTBd_7GyxhaAD4GpXmcv39I"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Game of Thrones - História e Tradição, 3ª Temporada",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Outras histórias dos Sete Reinos",
+        "url": "https://www.youtube.com/playlist?list=PLGIlAt6fMmWSPKH9SZOmjIfRfEf4rQkcz"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Game of Thrones - História e Tradição, 4ª Temporada",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Casas, Dragões e Rebeliões",
+        "url": "https://www.youtube.com/playlist?list=PLGIlAt6fMmWQ278fE1WhgEeqFYYAWD_ek"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Game of Thrones - História e Tradição, 5ª Temporada",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "A Fé, o Conhecimento e a Tradição",
+        "url": "https://www.youtube.com/playlist?list=PLGIlAt6fMmWRwkBqroO6lYi-UaaAxy1ci"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Game of Thrones - A Telltale Game Series",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Série de vídeos sobre o jogo Telltale de Game of Thrones",
+        "url": "https://www.youtube.com/playlist?list=PLtVa7KYOCJvXccT9yoLcQ9fDfYGOlNc96"
+      }
+    },
+    {
+      "id": 7,
+      "titulo": "Game of Thrones - Clips",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "#ForTheThrone - Série de clips da série Game of Thrones",
+        "url": "https://www.youtube.com/playlist?list=PLtVa7KYOCJvXccT9yoLcQ9fDfYGOlNc96"
       }
     }
    ],
@@ -14,8 +68,50 @@
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-    }
+      "titulo": "Casa Arryn (por Catelyn Stark)",
+      "url": "https://youtu.be/aGgtieIFI7U"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Casa Baratheon (por Robert Baratheon)",
+      "url": "https://youtu.be/lmrmzibZCeg"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Casa Lannister (por Lorde Tywin Lannister)",
+      "url": "https://youtu.be/pJ4qi63HCKI"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Casa Stark",
+      "url": "https://youtu.be/1Lw3n4POJag"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "A História da Patrulha da Noite (por Meistre Luwin)",
+      "url": "https://youtu.be/Gz0ihC-pmQA"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "A Rebelião de Robert Baratheon (por Robert Baratheon)",
+      "url": "https://youtu.be/aYhcbMTTuhY"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "A Era dos Heróis (por Bran Stark)",
+      "url": "https://youtu.be/4y50ty3siL0"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "A História da Patrulha da Noite (por Lorde Tywin Lannister)",
+      "url": "https://youtu.be/pPcvheSY9aQ"
+    },
   ]
 }
