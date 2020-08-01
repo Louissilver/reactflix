@@ -3,7 +3,7 @@
     {
       "id": 1,
       "titulo": "Game of Thrones - História e Tradição, 1ª Temporada",
-      "cor": "#6BD1FF",
+      "cor": "#800000",
       "link_extra": {
         "text": "Guia completo para Westeros",
         "url": "https://www.youtube.com/playlist?list=PLGIlAt6fMmWQnwLuyPh-Od_rhNbL7pQ4d"
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "titulo": "Game of Thrones - História e Tradição, 2ª Temporada",
-      "cor": "#6BD1FF",
+      "cor": "#780000",
       "link_extra": {
         "text": "Mais histórias de Westeros e das terras de sempre verão",
         "url": "https://www.youtube.com/playlist?list=PLGIlAt6fMmWTBd_7GyxhaAD4GpXmcv39I"
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "titulo": "Game of Thrones - História e Tradição, 3ª Temporada",
-      "cor": "#6BD1FF",
+      "cor": "#760000",
       "link_extra": {
         "text": "Outras histórias dos Sete Reinos",
         "url": "https://www.youtube.com/playlist?list=PLGIlAt6fMmWSPKH9SZOmjIfRfEf4rQkcz"
@@ -30,7 +30,7 @@
     {
       "id": 4,
       "titulo": "Game of Thrones - História e Tradição, 4ª Temporada",
-      "cor": "#6BD1FF",
+      "cor": "#740000",
       "link_extra": {
         "text": "Casas, Dragões e Rebeliões",
         "url": "https://www.youtube.com/playlist?list=PLGIlAt6fMmWQ278fE1WhgEeqFYYAWD_ek"
@@ -39,7 +39,7 @@
     {
       "id": 5,
       "titulo": "Game of Thrones - História e Tradição, 5ª Temporada",
-      "cor": "#6BD1FF",
+      "cor": "#720000",
       "link_extra": {
         "text": "A Fé, o Conhecimento e a Tradição",
         "url": "https://www.youtube.com/playlist?list=PLGIlAt6fMmWRwkBqroO6lYi-UaaAxy1ci"
@@ -48,7 +48,7 @@
     {
       "id": 6,
       "titulo": "Game of Thrones - A Telltale Game Series",
-      "cor": "#6BD1FF",
+      "cor": "#700000",
       "link_extra": {
         "text": "Série de vídeos sobre o jogo Telltale de Game of Thrones",
         "url": "https://www.youtube.com/playlist?list=PLtVa7KYOCJvXccT9yoLcQ9fDfYGOlNc96"
@@ -57,7 +57,7 @@
     {
       "id": 7,
       "titulo": "Game of Thrones - Clips",
-      "cor": "#6BD1FF",
+      "cor": "#680000",
       "link_extra": {
         "text": "#ForTheThrone - Série de clips da série Game of Thrones",
         "url": "https://www.youtube.com/playlist?list=PLtVa7KYOCJvXccT9yoLcQ9fDfYGOlNc96"
