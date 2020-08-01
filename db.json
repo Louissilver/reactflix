@@ -2,7 +2,7 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Game of Thrones - História e Tradição, 1ª Temporada",
+      "titulo": "História e Tradição, 1ª Temporada",
       "cor": "#800000",
       "link_extra": {
         "text": "Guia completo para Westeros",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "titulo": "Game of Thrones - História e Tradição, 2ª Temporada",
+      "titulo": "História e Tradição, 2ª Temporada",
       "cor": "#780000",
       "link_extra": {
         "text": "Mais histórias de Westeros e das terras de sempre verão",
@@ -20,7 +20,7 @@
     },
     {
       "id": 3,
-      "titulo": "Game of Thrones - História e Tradição, 3ª Temporada",
+      "titulo": "História e Tradição, 3ª Temporada",
       "cor": "#760000",
       "link_extra": {
         "text": "Outras histórias dos Sete Reinos",
@@ -29,7 +29,7 @@
     },
     {
       "id": 4,
-      "titulo": "Game of Thrones - História e Tradição, 4ª Temporada",
+      "titulo": "História e Tradição, 4ª Temporada",
       "cor": "#740000",
       "link_extra": {
         "text": "Casas, Dragões e Rebeliões",
@@ -38,7 +38,7 @@
     },
     {
       "id": 5,
-      "titulo": "Game of Thrones - História e Tradição, 5ª Temporada",
+      "titulo": "História e Tradição, 5ª Temporada",
       "cor": "#720000",
       "link_extra": {
         "text": "A Fé, o Conhecimento e a Tradição",
@@ -47,7 +47,7 @@
     },
     {
       "id": 6,
-      "titulo": "Game of Thrones - A Telltale Game Series",
+      "titulo": "A Telltale Game Series",
       "cor": "#700000",
       "link_extra": {
         "text": "Série de vídeos sobre o jogo Telltale de Game of Thrones",
@@ -56,20 +56,20 @@
     },
     {
       "id": 7,
-      "titulo": "Game of Thrones - Clips",
+      "titulo": "#ForTheThrone - Clips",
       "cor": "#680000",
       "link_extra": {
-        "text": "#ForTheThrone - Série de clips da série Game of Thrones",
-        "url": "https://www.youtube.com/playlist?list=PLtVa7KYOCJvXccT9yoLcQ9fDfYGOlNc96"
+        "text": "Série de clips da série Game of Thrones",
+        "url": "https://www.youtube.com/playlist?list=PLdyYtz46Nola4-vDhs0oisXkkAA3ZSlsq"
       }
     }
-   ],
+  ],
   "videos": [
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "Casa Arryn (por Catelyn Stark)",
-      "url": "https://youtu.be/aGgtieIFI7U"
+      "titulo": "A Dança dos Dragões (por Shireen)",
+      "url": "https://youtu.be/W-lPzlNnCTA"
     },
     {
       "id": 2,
@@ -112,6 +112,258 @@
       "categoriaId": 1,
       "titulo": "A História da Patrulha da Noite (por Lorde Tywin Lannister)",
       "url": "https://youtu.be/pPcvheSY9aQ"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "A Rebelião de Robert Baratheon (por Davos Seaworth)",
+      "url": "https://youtu.be/mAsau5PTWQQ"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Making off 2ª Temporada - (Making History)",
+      "url": "https://youtu.be/pPcvheSY9aQ"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "A História da Guilda dos Alquimistas (pelo Alquimista Hallyne)",
+      "url": "https://youtu.be/n6hQUrc-G10"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "A Patrulha da Noite (por Ygritte)",
+      "url": "https://youtu.be/UJPLC34eCkU"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "A Rebelião de Robert Baratheon (por Stannis Baratheon)",
+      "url": "https://youtu.be/eXdTG_sZfUg"
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,
+      "titulo": "A Rebelião Greyjoy (por Robb Stark)",
+      "url": "https://youtu.be/Ur0UKkfZ0UM"
+    },
+    {
+      "id": 15,
+      "categoriaId": 2,
+      "titulo": "A Rebelião Greyjoy (por Theon Greyjoy)",
+      "url": "https://youtu.be/jYXqsNNcrFM"
+    },
+    {
+      "id": 16,
+      "categoriaId": 2,
+      "titulo": "A Rebelião Greyjoy (por Stannis Baratheon)",
+      "url": "https://youtu.be/YXFZSU2p1lA"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Os Imaculados (por Sor Jorah Mormont)",
+      "url": "https://youtu.be/m8OtUvcsM94"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "Antiga Ghis e a Baía dos Escravos (por Jorah Mormont)",
+      "url": "https://youtu.be/bQ9kMDzJkQU"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "A Casa Reed (por Meera Reed)",
+      "url": "https://youtu.be/DxS_mcE9aws"
+    },
+    {
+      "id": 20,
+      "categoriaId": 3,
+      "titulo": "A Casa Bolton (por Roose Bolton)",
+      "url": "https://youtu.be/Hg4-q2kkJNU"
+    },
+    {
+      "id": 21,
+      "categoriaId": 3,
+      "titulo": "A Casa Frey (por Catelyn Stark)",
+      "url": "https://youtu.be/2mz-wPag_mc"
+    },
+    {
+      "id": 22,
+      "categoriaId": 3,
+      "titulo": "A Casa Tully (por Brynden Tully)",
+      "url": "https://youtu.be/tayYSpayeDQ"
+    },
+    {
+      "id": 23,
+      "categoriaId": 3,
+      "titulo": "A Campina (pela rainha Margaery Tyrell)",
+      "url": "https://youtu.be/rKWyGrXqH04"
+    },
+    {
+      "id": 24,
+      "categoriaId": 3,
+      "titulo": "A Fortaleza Vermelha (pelo rei Joffrey Baratheon)",
+      "url": "https://youtu.be/NSt0rRLY3XQ"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "Casa Martell (por Oberyn Martell)",
+      "url": "https://youtu.be/w-dUYp7Ncqc"
+    },
+    {
+      "id": 26,
+      "categoriaId": 4,
+      "titulo": "Os Bastardos de Westeros (por Ellaria Sand)",
+      "url": "https://youtu.be/GHHxmADQAfA"
+    },
+    {
+      "id": 27,
+      "categoriaId": 4,
+      "titulo": "A Casa Baelish (por Mindinho)",
+      "url": "https://youtu.be/qK3on5DVc8c"
+    },
+    {
+      "id": 28,
+      "categoriaId": 4,
+      "titulo": "Dragões (pelo Grande Meistre Pycelle)",
+      "url": "https://youtu.be/bFKo71OMO9Q"
+    },
+    {
+      "id": 29,
+      "categoriaId": 4,
+      "titulo": "Justiça dos Sete Reinos (por Bronn)",
+      "url": "https://youtu.be/pZehJ3PsTX0"
+    },
+    {
+      "id": 30,
+      "categoriaId": 4,
+      "titulo": "Venenos (por Oberyn Martell)",
+      "url": "https://youtu.be/NKmer5N0iNc"
+    },
+    {
+      "id": 31,
+      "categoriaId": 4,
+      "titulo": "A Rebelião de Robert (por Oberyn Martell)",
+      "url": "https://youtu.be/a0PDIi5TGyg"
+    },
+    {
+      "id": 32,
+      "categoriaId": 4,
+      "titulo": "Mercenários e Cavaleiros Andantes (por Bronn)",
+      "url": "https://youtu.be/nWEPGqKithA"
+    },
+    {
+      "id": 33,
+      "categoriaId": 5,
+      "titulo": "A Fé Militante (por Alto Pardal)",
+      "url": "https://youtu.be/_Ls0Aua9GgQ"
+    },
+    {
+      "id": 34,
+      "categoriaId": 5,
+      "titulo": "A Estrela de Sete Pontas (por Alto Pardal)",
+      "url": "https://youtu.be/Ez-nDQnAGso"
+    },
+    {
+      "id": 35,
+      "categoriaId": 5,
+      "titulo": "Braavos (por Tycho Nestoris)",
+      "url": "https://youtu.be/P-bY-2EpKIM"
+    },
+    {
+      "id": 36,
+      "categoriaId": 5,
+      "titulo": "Volantis (por Varys)",
+      "url": "https://youtu.be/bDoMwbC02Nk"
+    },
+    {
+      "id": 37,
+      "categoriaId": 5,
+      "titulo": "A Rebelião de Robert (por Sor Barristan Selmy)",
+      "url": "https://youtu.be/43EBppbN994"
+    },
+    {
+      "id": 38,
+      "categoriaId": 5,
+      "titulo": "As Arenas de Luta de Meereen (por Daario Naharis)",
+      "url": "https://youtu.be/iCmBsj-Hiyo"
+    },
+    {
+      "id": 39,
+      "categoriaId": 5,
+      "titulo": "Dorne (por Ellaria Sand)",
+      "url": "https://youtu.be/1iEJsSG2oUQ"
+    },
+    {
+      "id": 40,
+      "categoriaId": 5,
+      "titulo": "Escamagris e os Homens de Pedra (por Qyburn)",
+      "url": "https://youtu.be/yXIEqs8k8Y0"
+    },
+    {
+      "id": 41,
+      "categoriaId": 6,
+      "titulo": "Episódio 1 - Parte #1 - O Casamento Vermelho",
+      "url": "https://youtu.be/mwm41OUT5Fo"
+    },
+    {
+      "id": 42,
+      "categoriaId": 6,
+      "titulo": "Episódio 1 - Parte #2 - O Exílio Na Muralha",
+      "url": "https://youtu.be/xct7fP1gUTk"
+    },
+    {
+      "id": 43,
+      "categoriaId": 6,
+      "titulo": "Episódio 1 - Parte #3 - Lorde Ethan",
+      "url": "https://youtu.be/KMj-hSRdiN8"
+    },
+    {
+      "id": 44,
+      "categoriaId": 6,
+      "titulo": "Episódio 1 - Parte #4 - Cersei",
+      "url": "https://youtu.be/86VZjklZwj8"
+    },
+    {
+      "id": 45,
+      "categoriaId": 6,
+      "titulo": "Episódio 1 - Parte #5 - Ramsay Snow",
+      "url": "https://youtu.be/eiSUKaFgUec"
+    },
+    {
+      "id": 46,
+      "categoriaId": 6,
+      "titulo": "Episódio 1 - Parte #6 - FINAL",
+      "url": "https://youtu.be/JKLnvb3EseI"
+    },
+    {
+      "id": 47,
+      "categoriaId": 7,
+      "titulo": "#ForTheThrone | Game of Thrones (HBO)",
+      "url": "https://youtu.be/0MGnIUn30FU"
+    },
+    {
+      "id": 48,
+      "categoriaId": 7,
+      "titulo": "Not a Queen, a Khaleesi",
+      "url": "https://youtu.be/CczKaabSRfU"
+    },
+    {
+      "id": 49,
+      "categoriaId": 7,
+      "titulo": "The Purple Wedding",
+      "url": "https://youtu.be/prRPvqkVsUQ"
+    },
+    {
+      "id": 50,
+      "categoriaId": 7,
+      "titulo": "Jon Snow's Resurrection",
+      "url": "https://youtu.be/LLwWSRp1LTs"
     }
   ]
 }

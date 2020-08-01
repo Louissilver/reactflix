@@ -1,17 +1,20 @@
+/* eslint-disable linebreak-style */
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
+import categoriasRepository from '../../../repositories/categorias';
 
 function CadastroCategoria() {
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '',
   };
 
+  const history = useHistory();
   const { handleChange, values, clearForm } = useForm(valoresIniciais);
 
   const [categorias, setCategorias] = useState([]);
@@ -20,6 +23,7 @@ function CadastroCategoria() {
     const URL_TOP = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
       : 'https://gotflix.herokuapp.com/categorias';
+
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
@@ -33,7 +37,7 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>
         Cadastro de Categoria:
-        {values.nome}
+        {values.titulo}
       </h1>
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
@@ -43,14 +47,25 @@ function CadastroCategoria() {
           values,
         ]);
 
-        clearForm();
+        categoriasRepository.create({
+          titulo: values.titulo,
+          descricao: values.descricao,
+          cor: values.cor,
+        })
+          .then(() => {
+            console.log('Cadastrou com sucesso!');
+            history.push('/');
+          });
       }}
       >
 
+
         <FormField
-          label="Nome da Categoria"
-          name="nome"
-          value={values.nome}
+          placeholder="Categoria"
+          label="Nome da Categoria "
+          type="text"
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
@@ -77,7 +92,6 @@ function CadastroCategoria() {
 
       {categorias.length === 0 && (
         <div>
-          {}
           Loading...
         </div>
       )}
@@ -90,8 +104,12 @@ function CadastroCategoria() {
         ))}
       </ul>
 
+      <Link to="/cadastro/video">
+        Cadastrar Vídeo
+      </Link>
+      <br />
       <Link to="/">
-        Ir para home
+        Home
       </Link>
     </PageDefault>
   );

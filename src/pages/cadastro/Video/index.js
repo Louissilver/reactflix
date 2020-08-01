@@ -80,6 +80,10 @@ function CadastroVideo() {
       <Link to="/cadastro/categoria">
         Cadastrar Categoria
       </Link>
+      <br />
+      <Link to="/">
+        Home
+      </Link>
     </PageDefault>
   );
 }
