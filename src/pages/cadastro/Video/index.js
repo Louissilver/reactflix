@@ -9,8 +9,8 @@ import categoriasRepository from '../../../repositories/categorias';
 
 function CadastroVideo() {
   const history = useHistory();
-  const [categorias, setCategorias] = useState([]);
-  const categoryTitles = categorias.map(({ titulo }) => titulo);
+  const [videos, setVideos] = useState([]);
+  const categoryTitles = videos.map(({ titulo }) => titulo);
   const { handleChange, values } = useForm({
     titulo: '',
     url: '',
@@ -18,10 +18,16 @@ function CadastroVideo() {
   });
 
   useEffect(() => {
-    categoriasRepository
-      .getAll()
-      .then((categoriasFromServer) => {
-        setCategorias(categoriasFromServer);
+    const URL_TOP = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/videos'
+      : 'https://gotflix.herokuapp.com/videos';
+
+    fetch(URL_TOP)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setVideos([
+          ...resposta,
+        ]);
       });
   }, []);
 
@@ -32,7 +38,7 @@ function CadastroVideo() {
       <form onSubmit={(event) => {
         event.preventDefault();
 
-        const categoriaEscolhida = categorias.find((categoria) => {
+        const categoriaEscolhida = videos.find((categoria) => {
           return categoria.titulo === values.categoria;
         });
 
