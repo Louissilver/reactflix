@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable linebreak-style */
 import React, { useEffect, useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
@@ -9,25 +11,33 @@ import categoriasRepository from '../../../repositories/categorias';
 
 function CadastroVideo() {
   const history = useHistory();
-  const [videos, setVideos] = useState([]);
-  const categoryTitles = videos.map(({ titulo }) => titulo);
+  const [categorias, setCategorias] = useState([]);
+  const categoryTitles = categorias.map(({ titulo }) => titulo);
   const { handleChange, values } = useForm({
     titulo: '',
     url: '',
     categoria: '',
   });
 
+  const [videos, setVideos] = useState([]);
+
   useEffect(() => {
     const URL_TOP = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/videos'
       : 'https://gotflix.herokuapp.com/videos';
+    fetch(URL_TOP).then(async (respostaDoServidor) => {
+      const resposta = await respostaDoServidor.json();
+      setVideos([
+        ...resposta,
+      ]);
+    });
+  }, []);
 
-    fetch(URL_TOP)
-      .then(async (respostaDoServidor) => {
-        const resposta = await respostaDoServidor.json();
-        setVideos([
-          ...resposta,
-        ]);
+  useEffect(() => {
+    categoriasRepository
+      .getAll()
+      .then((categoriasFromServer) => {
+        setCategorias(categoriasFromServer);
       });
   }, []);
 
@@ -38,7 +48,7 @@ function CadastroVideo() {
       <form onSubmit={(event) => {
         event.preventDefault();
 
-        const categoriaEscolhida = videos.find((categoria) => {
+        const categoriaEscolhida = categorias.find((categoria) => {
           return categoria.titulo === values.categoria;
         });
 
