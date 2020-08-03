@@ -27,13 +27,13 @@ function getAllWithVideos() {
     });
 }
 
-function create(objetoDoVideo) {
-  return fetch(`${URL_CATEGORIES}?_embed=videos`, {
+function create(objetoDaCategoria) {
+  return fetch(`${URL_CATEGORIES}?_embed=categorias`, {
     method: 'POST',
     headers: {
       'Content-type': 'application/json',
     },
-    body: JSON.stringify(objetoDoVideo),
+    body: JSON.stringify(objetoDaCategoria),
   })
     .then(async (respostaDoServidor) => {
       if (respostaDoServidor.ok) {
@@ -45,8 +45,15 @@ function create(objetoDoVideo) {
     });
 }
 
+function deleteCategoria(idCategoria) {
+  return fetch(`${URL_CATEGORIES}/${idCategoria}`, {
+    method: 'DELETE',
+  });
+}
+
 export default {
   getAllWithVideos,
   getAll,
   create,
+  deleteCategoria,
 };

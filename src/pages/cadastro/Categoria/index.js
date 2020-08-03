@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
-import Button from '../../../components/Button';
+import { Button, ButtonExcluir } from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
 import categoriasRepository from '../../../repositories/categorias';
 
@@ -36,7 +36,7 @@ function CadastroCategoria() {
   return (
     <PageDefault>
       <h1>
-        Cadastro de Categoria:
+        Cadastro de Categoria: &nbsp;
         {values.titulo}
       </h1>
 
@@ -61,7 +61,7 @@ function CadastroCategoria() {
 
 
         <FormField
-          placeholder="Categoria"
+          placeholder="Categoria "
           label="Nome da Categoria "
           type="text"
           name="titulo"
@@ -90,20 +90,31 @@ function CadastroCategoria() {
         </Button>
       </form>
 
+      <br />
+      <h2>Categorias Cadastrados</h2>
       {categorias.length === 0 && (
         <div>
+          {/* Carregando */}
           Loading...
         </div>
       )}
 
       <ul>
         {categorias.map((categoria) => (
-          <li style={{listStyle: 'square'}} key={`${categoria.titulo}`}>
+          <li key={`${categoria.titulo}`}>
             {categoria.titulo}
+            <ButtonExcluir onClick={() => {
+              categoriasRepository.deleteCategoria(categoria.id)
+                .then(() => {
+                  history.push('/');
+                });
+            }}
+            >
+              Excluir
+            </ButtonExcluir>
           </li>
         ))}
       </ul>
-      <br />
     </PageDefault>
   );
 }

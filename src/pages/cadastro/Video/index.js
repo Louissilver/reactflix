@@ -5,7 +5,7 @@ import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import useForm from '../../../hooks/useForm';
 import FormField from '../../../components/FormField';
-import Button from '../../../components/Button';
+import { Button, ButtonExcluir } from '../../../components/Button';
 import videosRepository from '../../../repositories/videos';
 import categoriasRepository from '../../../repositories/categorias';
 
@@ -91,6 +91,24 @@ function CadastroVideo() {
       </form>
 
       <br />
+      <h2>Videos Cadastrados</h2>
+      <ul>
+        {videos.map((video) => (
+          <li key={`${video.titulo}`}>
+            {video.titulo}
+            <ButtonExcluir onClick={() => {
+              videosRepository.deleteVideo(video.id)
+                .then(() => {
+                  history.push('/');
+                });
+            }}
+            >
+              Excluir
+            </ButtonExcluir>
+
+          </li>
+        ))}
+      </ul>
     </PageDefault>
   );
 }
