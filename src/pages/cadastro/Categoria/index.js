@@ -88,10 +88,15 @@ function CadastroCategoria() {
         <Button type="submit">
           Cadastrar
         </Button>
+        <br />
+        <br />
+        <Button as={Link} className="ButtonLink" to="/">
+          Home
+        </Button>
       </form>
 
       <br />
-      <h2>Categorias Cadastrados</h2>
+      <h2>Categorias</h2>
       {categorias.length === 0 && (
         <div>
           {/* Carregando */}

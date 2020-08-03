@@ -88,10 +88,15 @@ function CadastroVideo() {
         <Button type="submit">
           Cadastrar
         </Button>
+        <br />
+        <br />
+        <Button as={Link} className="ButtonLink" to="/cadastro/categoria">
+          Nova Categoria
+        </Button>
       </form>
 
       <br />
-      <h2>Videos Cadastrados</h2>
+      <h2>Videos</h2>
       <ul>
         {videos.map((video) => (
           <li key={`${video.titulo}`}>
