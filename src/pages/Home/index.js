@@ -22,7 +22,7 @@ function Home() {
   return (
     <PageDefault paddingAll={0}>
 
-      {dadosIniciais.length === 0 && (<div>Loading...</div>)}
+      {dadosIniciais.length === 0 && (<div>Carregando...</div>)}
 
       {dadosIniciais.map((categoria, indice) => {
         for (let i = 0; i < dadosIniciais.length; i += 1) {

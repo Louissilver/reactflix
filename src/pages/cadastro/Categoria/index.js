@@ -53,7 +53,8 @@ function CadastroCategoria() {
           cor: values.cor,
         })
           .then(() => {
-            console.log('Cadastrou com sucesso!');
+            console.log('Cadastro realizado com sucesso!');
+            alert('Cadastro realizado com sucesso!');
             history.push('/');
           });
       }}
@@ -61,8 +62,8 @@ function CadastroCategoria() {
 
 
         <FormField
-          placeholder="Categoria "
-          label="Nome da Categoria "
+          placeholder="Categoria"
+          label="Nome da Categoria"
           type="text"
           name="titulo"
           value={values.titulo}
@@ -99,8 +100,7 @@ function CadastroCategoria() {
       <h2>Categorias</h2>
       {categorias.length === 0 && (
         <div>
-          {/* Carregando */}
-          Loading...
+          Carregando...
         </div>
       )}
 
